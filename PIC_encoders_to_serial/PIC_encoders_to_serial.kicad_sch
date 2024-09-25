@@ -2582,6 +2582,10 @@
 		(uuid "bcdf4978-e16f-448a-9e47-4b938be78c27")
 	)
 	(no_connect
+		(at 31.75 138.43)
+		(uuid "554ce6a2-1dfe-4783-998f-bf6458394432")
+	)
+	(no_connect
 		(at 31.75 115.57)
 		(uuid "bb9a25b7-360d-4ebc-b4f8-ea099b96d353")
 	)
@@ -2617,7 +2621,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 160.02 76.2)
+			(xy 151.13 73.66) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 199.39 99.06)
+			(xy 190.5 104.14) (xy 199.39 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2857,7 +2861,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 199.39 101.6)
+			(xy 190.5 106.68) (xy 199.39 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3034,7 @@
 		(uuid "4d2dd743-8be0-4f34-9879-2b5caa09e646")
 	)
 	(label "QEI_I"
-		(at 160.02 81.28 180)
+		(at 160.02 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,7 +3045,7 @@
 		(uuid "5332034c-591c-4bc0-b1be-3c0016b9aba0")
 	)
 	(label "Saber_RX"
-		(at 160.02 83.82 180)
+		(at 160.02 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3063,7 +3067,7 @@
 		(uuid "56be919b-f84d-42ad-807c-f571da652e53")
 	)
 	(label "QEI_B"
-		(at 160.02 78.74 180)
+		(at 160.02 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3074,7 +3078,7 @@
 		(uuid "624ae0a9-9864-473a-9d5c-5f192a0a4964")
 	)
 	(label "pic_RX"
-		(at 160.02 88.9 180)
+		(at 160.02 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3096,7 +3100,7 @@
 		(uuid "87af4ce5-41ec-4055-9ead-04c424a09c57")
 	)
 	(label "pic_RX"
-		(at 199.39 99.06 180)
+		(at 199.39 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3118,7 +3122,7 @@
 		(uuid "a3882fb0-3037-4db9-a12c-946c862a6535")
 	)
 	(label "QEI_I"
-		(at 199.39 81.28 180)
+		(at 199.39 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3140,7 +3144,7 @@
 		(uuid "b7744187-0153-4cda-ac48-1c05750ae66c")
 	)
 	(label "pic_TX"
-		(at 199.39 101.6 180)
+		(at 199.39 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3173,7 +3177,7 @@
 		(uuid "cffbd45b-6579-45e6-8196-e2ba221a3e80")
 	)
 	(label "QEI_A"
-		(at 199.39 76.2 180)
+		(at 199.39 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3195,7 +3199,7 @@
 		(uuid "f1f60e68-3f7c-4e6a-a9cd-e09ecd1bcacd")
 	)
 	(label "pic_TX"
-		(at 160.02 86.36 180)
+		(at 160.02 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3206,7 +3210,7 @@
 		(uuid "f2d6b032-b0b1-41d5-85e2-4f958b54b4e8")
 	)
 	(label "QEI_A"
-		(at 160.02 76.2 180)
+		(at 160.02 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3288,8 +3292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 106.68 90)
-		(mirror x)
+		(at 190.5 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3298,7 +3301,7 @@
 		(fields_autoplaced yes)
 		(uuid "064de071-aaf0-49e1-bca7-de6092a3af8e")
 		(property "Reference" "#PWR019"
-			(at 196.85 106.68 0)
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 106.6801 90)
+			(at 194.31 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 106.68 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 106.68 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 106.68 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3365,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09cdc814-509b-440c-b565-7e4d862c3bd4")
 		(property "Reference" "U1"
 			(at 115.2241 45.72 0)
@@ -3374,7 +3376,7 @@
 			)
 		)
 		(property "Value" "DSPIC33FJ64MC802-xSP"
-			(at 115.2241 48.26 0)
+			(at 115.062 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5268-04A_1x04_P2.50mm_Horizontal"
 			(at 185.42 101.6 0)
 			(effects
 				(font
@@ -4764,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5268-05A_1x05_P2.50mm_Horizontal"
 			(at 185.42 81.28 0)
 			(effects
 				(font
@@ -4816,7 +4818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 26.67 130.81 0)
 		(mirror y)
 		(unit 1)
@@ -4842,7 +4844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -4860,7 +4862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -4883,6 +4885,9 @@
 		)
 		(pin "2"
 			(uuid "12692404-28b1-4916-ae55-cd80140ec6f0")
+		)
+		(pin "6"
+			(uuid "530ddc0f-48eb-4750-aa8b-b80cc2dc512c")
 		)
 		(instances
 			(project ""
@@ -5775,8 +5780,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 104.14 270)
-		(mirror x)
+		(at 190.5 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,7 +5789,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3a70a64-f441-4ebe-bc96-95b857e70e97")
 		(property "Reference" "#PWR020"
-			(at 186.69 104.14 0)
+			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5798,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 194.31 104.1401 90)
+			(at 194.31 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +5807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 104.14 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 104.14 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 104.14 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_SPOX_5268-02A_1x02_P2.50mm_Horizontal"
 			(at 185.42 127 0)
 			(effects
 				(font
